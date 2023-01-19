@@ -1,0 +1,115 @@
+.introductionbar{
+  background-color: #2C2B30;
+  text-align: center;
+  width: 100%;
+  height: 9rem;
+}
+
+.initials{
+  color: White;
+}
+
+/* TEMP: below the introductionbar */
+
+.divscontainer{
+  position: relative;
+}
+
+.verticaldiv{
+  position: absolute;
+  width:25%;
+  background-color: #D6D6D6;
+  height: 39rem;
+
+}
+
+.horizontaldiv{
+  position: absolute;
+  padding-left: 25rem;
+  padding-top: 4rem;
+}
+
+.imageme{
+  width: 55%;
+  padding-left: 5rem;
+  padding-top: 5rem;
+
+}
+
+/* TEMP: unordered list that contains my personal information */
+
+.unordered{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* TEMP: all the media queries are here  */
+
+@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 992px){}
+@media only screen and (min-width: 768px) {}
+
+/* TEMP: responsiveness for small devices (portrait tablets and large phones) */
+
+@media only screen and (min-width: 600px ) and (max-width: 850px){
+  .introductionbar{
+    height: 5rem;
+    width: 100%;
+    }
+  .name{
+    font-size: 17px;
+  }
+
+  .shortname{
+    font-size: 12px;
+  }
+
+  .verticaldiv{
+    width: 27%;
+  }
+
+  .imageme{
+    width: 6rem;
+    height: 6rem;
+    padding-left: 4rem;
+  }
+
+  .horizontaldiv{
+    padding-left: 18rem;
+  }
+
+}
+
+
+
+/* TEMP: responsiveness for extra small devices */
+
+@media only screen and (max-width: 600px){
+  .introductionbar{
+    height: 5rem;
+    width: 100%;
+    }
+  .name{
+    font-size: 17px;
+  }
+
+  .shortname{
+    font-size: 12px;
+  }
+
+  .verticaldiv{
+    width: 25%;
+  }
+
+  .imageme{
+    width: 6rem;
+    height: 6rem;
+    padding-left: 0.75rem;
+  }
+
+  .horizontaldiv{
+    padding-left: 10rem;
+  }
+
+
+}
